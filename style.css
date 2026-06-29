@@ -1,0 +1,92 @@
+/* Rule 1: Global page setup and typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Rule 2: Container for structured layout mapping */
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Rule 3: Header profile flexbox layout */
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 11px;
+    color: #777;
+}
+
+/* Rule 4: Structural Section formatting */
+section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+}
+
+/* Rule 5: Navigation links and standard anchor tags */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Rule 6: List formatting for exercises layout */
+ul.exercise-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul.exercise-list li {
+    margin-bottom: 10px;
+}
+
+/* Rule 7: Layout for C-programming credentials badges */
+.badge-box {
+    float: right;
+    margin: 10px 0 20px 20px;
+    padding: 15px;
+    border: 1px dashed #ccc;
+    background: #fafafa;
+    text-align: center;
+    max-width: 200px;
+}
